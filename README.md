@@ -1,5 +1,5 @@
 # ExPLabelBias
-- Causal Bayesian Denoising with Demographic-Adaptive Noise Priors (CBD-DANP) proposes a framework with a compelling integration of Bayesian modeling, causal inference, and fairness constraints to address label subjectivity in demographic-based depression prediction. 
+- **Causal Bayesian Denoising with Demographic-Adaptive Noise Priors** (CBD-DANP) proposes a framework with a compelling integration of Bayesian modeling, causal inference, and fairness constraints to address label subjectivity in demographic-based depression prediction. 
 
 - CBD-DANP stands out by treating noise as demographic-cluster-dependent (e.g., higher mislabeling in certain age/gender groups due to cultural biases in self-reporting), using SCMs to disentangle confounders (e.g., income influencing both depression risk and reporting accuracy), and embedding fairness penalties (e.g., via regularized posteriors) in a unified Bayesian setup. This is underexplored; searches for direct analogs (e.g., "Causal Bayesian Denoising with Demographic-Adaptive Noise Priors") is hypothesized to yield unrelated results like Bayesian denoising in photon-counting or image processing. Related causal surveys highlight deep learning integrations but not directly as specific probabilistic, fairness-enforced extension for diagnostics, as in this proposed CBD-DANP.
 
